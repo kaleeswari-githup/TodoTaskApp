@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/cardview"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginStart="24dp"
+    android:layout_marginEnd="24dp"
+    android:layout_marginBottom="12dp"
+    android:background="@drawable/item_background"
+    app:cardBackgroundColor="@color/white"
+    app:cardCornerRadius="16dp">
+
+
+    <FrameLayout
+        android:id="@+id/paddingCheck"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="2dp"
+        android:padding="16dp"
+        >
+
+        <ImageView
+            android:id="@+id/checkImage"
+            android:layout_width="24dp"
+            android:layout_height="24dp"
+            android:contentDescription="TODO"
+            android:duplicateParentState="true"
+            android:focusable="false"
+            android:textColor="@color/black"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:srcCompat="@drawable/rectangle_5" />
+
+    </FrameLayout>
+
+    <TextView
+        android:id="@+id/dotoMessage"
+        android:layout_width="267dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_marginStart="64dp"
+        android:layout_marginTop="14dp"
+        android:fontFamily="@font/roboto_bold"
+        android:lineSpacingExtra="1sp"
+        android:text="TextView"
+        android:ellipsize="end"
+        android:maxLines="1"
+        android:textColor="@color/black"
+        app:layout_constraintBottom_toBottomOf="parent"
+        />
+
+    <TextView
+        android:id="@+id/dateTimeText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/dotoMessage"
+
+        android:layout_marginStart="64dp"
+        android:layout_marginTop="2dp"
+        android:layout_marginBottom="14dp"
+        android:fontFamily="@font/roboto_medium"
+        android:text="TextView"
+        android:textSize="11sp" />
+
+
+</RelativeLayout>

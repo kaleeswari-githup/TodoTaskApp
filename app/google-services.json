@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "239762821436",
+    "project_id": "dodo-project-1e0f8",
+    "storage_bucket": "dodo-project-1e0f8.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:239762821436:android:7b71b83fa0931e3f180e39",
+        "android_client_info": {
+          "package_name": "com.real.dono"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "239762821436-fmieqsdm2rdd1h7ui5kqusgq9vitf7l2.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.real.dono",
+            "certificate_hash": "e3dec1cb625232e555eeecc1add7c55d15f72bcb"
+          }
+        },
+        {
+          "client_id": "239762821436-vi5tt4dhdamlmnipsdqnnfp82k99h1gk.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAGdRLHeeCuPsHXVqceKZh0X1kJVaPXqjE"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "239762821436-hfc0nbt49nqa0ttna7uvfep5jce5iqf2.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
